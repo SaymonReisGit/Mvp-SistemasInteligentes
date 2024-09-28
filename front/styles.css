@@ -1,0 +1,74 @@
+/* Imagem de fundo da página */
+body {
+    background-image: url('img/bg1.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #333;
+}
+
+/* Estilo do container principal */
+.container {
+    background-color: rgba(231, 255, 235, 0.95); 
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo dos textos */
+h2 {
+    font-family: 'Georgia', serif;
+    color: #2d6a4f;
+}
+
+label {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+/* Estilo dos botões */
+.btn-primary {
+    background-color: #90e0ef;
+    border-color: #90e0ef;
+    font-weight: bold;
+    padding: 10px 20px;
+    color: #fff;
+}
+.btn-primary:hover {
+    background-color: #00b4d8;
+    border-color: #00b4d8;
+}
+
+/* Estilo do card de resultado */
+.card {
+    background-color: rgba(240, 255, 255, 0.9);
+    color: #333;
+    border-radius: 15px;
+    border: 1px solid #2d6a4f;
+}
+
+.card-header {
+    background-color: rgba(200, 240, 240, 0.5);
+    border-bottom: 1px solid #2d6a4f;
+    font-weight: bold;
+}
+
+.form-check-label {
+    color: #333;
+}
+
+/* Campo de texto resultado */
+textarea {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: none;
+    color: #333;
+    font-family: 'Courier New', monospace;
+    font-size: 14px;
+}
+
+/* Estilo do Select */
+select {
+    background-color: #fff;
+    color: #333;
+    border-radius: 5px;
+}
